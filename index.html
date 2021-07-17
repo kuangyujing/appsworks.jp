@@ -21,28 +21,28 @@
     <body>
         <div class="w3-container w3-bar w3-padding" style="margin: 0px !important">
             <div class="w3-bar-item">AppsWorks</div>
-            <div class="w3-bar-item w3-right w3-hover-blue">会社情報</div>
-            <div class="w3-bar-item w3-right w3-hover-blue">事業</div>
+            <div class="w3-bar-item w3-right w3-hover-blue"><a href="#2">会社情報</a></div>
+            <div class="w3-bar-item w3-right w3-hover-blue"><a href="#1">事業</a></div>
         </div>
 
         <div class="parallax-window" data-parallax="scroll" data-image-src="assets/parallax.jpg" data-ios-fix="true" data-android-fix="true"></div>
 
         <div class="w3-container">
-            <h2 class="w3-panel w3-leftbar w3-border-blue">主な事業</h2>
-            <div class="w3-row-padding">
-                <div class="w3-col s12 m12 l4 w3-card"><h3>クラウドサービス開発</h3></div>
-                <div class="w3-col s12 m12 l4 w3-card"><h3>AIサービス開発</h3></div>
-                <div class="w3-col s12 m12 l4 w3-card"><h3>ビッグデータ開発</h3></div>
-                <div class="w3-col s12 m12 l4 w3-card"><h3>プロダクト開発</h3></div>
-                <div class="w3-col s12 m12 l4 w3-card"><h3>システムインテグレーション</h3></div>
-                <div class="w3-col s12 m12 l4 w3-card"><h3>UI/UXデザイン</h3></div>
-                <div class="w3-col s12 m12 l4 w3-card"><h3>コンサルティングサービス</h3></div>
-                <div class="w3-col s12 m12 l4 w3-card"><h3>DX推進サポート</h3></div>
-            </div>
+            <h2 id="1" class="w3-panel w3-leftbar w3-border-blue">主な事業</h2>
+            <table class="w3-table w3-card w3-striped w3-hoverable">
+                <tr><td>クラウドサービス開発</td></tr>
+                <tr><td>AIサービス開発</td></tr>
+                <tr><td>ビッグデータ開発</td></tr>
+                <tr><td>プロダクト開発</td></tr>
+                <tr><td>システムインテグレーション</td></tr>
+                <tr><td>UI/UXデザイン</td></tr>
+                <tr><td>コンサルティングサービス</td></tr>
+                <tr><td>DX推進サポート</td></tr>
+            </table>
         </div>
 
         <div class="w3-container">
-            <h2 class="w3-panel w3-leftbar w3-border-blue">会社情報</h2>
+            <h2 id="2" class="w3-panel w3-leftbar w3-border-blue">会社情報</h2>
             <table class="w3-table w3-card w3-striped w3-hoverable">
                 <tr>
                     <th>会社名</th><td>AppsWorks合同会社</td>
@@ -55,6 +55,7 @@
                 </tr>
             </table>
         </div>
+        <br>
     </body>
 </html>
 
